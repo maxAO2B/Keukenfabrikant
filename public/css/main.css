@@ -1,0 +1,30 @@
+.custom-input {
+    border: none;
+    border-bottom: 2px solid #38c172;
+    width: 100%;    
+    background-color: none;
+}
+
+nav {
+    z-index: 1;
+}
+
+
+
+.custom-input:focus {
+    outline:none;
+    border-bottom: 3px solid #38c172;
+    width: 110%;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.green-text {
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.card-header {
+    background-color: #38c172 !important;
+}

@@ -1,0 +1,27 @@
+.collapse {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-success {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkbox {
+    display: flex;
+    width: 70%;
+    text-align: center;
+}
+
+.collapsing {
+    display: flex;
+    margin: auto;
+}

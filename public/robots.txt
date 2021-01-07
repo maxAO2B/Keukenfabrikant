@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /resources/views/auth
+Sitemap: http://keukenfabrikant.nl

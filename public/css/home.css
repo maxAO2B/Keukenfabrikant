@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+}
+
+.dropdown-menu.show{
+    width: 178px;
+}
+
+.favorite {
+    display: flex;
+    margin: auto;
+}
+
+.btn.btn-success.btn-sm.all{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-img-right{
+max-width: 40%;
+max-height: 40%;
+}
+
+.col-sm-2 {
+    margin: 0;
+    padding: 0;
+    margin-top: -13%;
+} 
+
+.sidebar-left {
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+}
+
+.sidebar-right {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+}
+
+.fas.fa-address-card {
+    width: 25px;
+    height: 20px;
+}
+
+.fas.fa-pencil-alt {
+    width: 25px;
+    height: 20px;
+}
+
+.fas.fa-user-shield {
+    width: 25px;
+    height: 20px;
+}
+
+.fas.fa-sign-out-alt {
+    width: 25px;
+    height: 20px;
+}
+
+.navbar-nav.mr-auto {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+
+.fa-heart {
+    margin-left: 30px;
+    color: #5cb85c;
+  }
+  
+  .comment-container {
+    height: 30%;
+    width: 40%;
+  }
+  
+  .comment {
+    border: none;
+    border-bottom: 2px solid #5cb85c;
+    margin: 10px;
+  }
+  
+  .commentname {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .small-p {
+    margin-top: -10px;
+    font-size: 12px;
+    text-align: left;
+  }
+  .footer-comment {
+    margin-top: -10px;
+    font-size: 10px;
+    text-align: right;
+  }
+  
+  .comment-text {
+    margin: 15px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .btn-trash {
+    background-color: #c51f1a;
+    color: white;
+    margin-left: auto;
+    height: 38px;
+  }
+  
+  .btn-delete {
+    background-color: #d9534f;
+    color: white;
+    float: right;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-edit {
+    background-color: #5cb85c;
+    color: white;
+    float: right;
+    height: 37px;
+    margin: 0px 0px 0px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .postimage {
+    width: 200px;
+    height: auto;
+  }
+  
+  .hr-post {
+    width: 100%;
+    height: auto;
+   background-color: #5cb85c;
+  }
+  
+  #commenttextarea {
+    margin-bottom: 12px;
+    background-color: lightgray;
+    border: 2px solid #5cb85c;
+  }
+  
+  .topbanner {
+      display: flex;
+      top: 0;
+      margin: auto;
+      margin-bottom: 20px;
+      justify-content: center;
+      max-width: 100%;
+  }
+
+  .btn-whatsapp {
+    background-color: #5cb85c;
+    color: white;
+    margin-top: -1.5%;
+}
+
+.btn-app {
+  background-color: #5cb85c;
+    color: white;
+    margin-top: -0.5%;
+}
+
+/* Alle media screen widths komen hieronder. Deze zorgen ervoor dat wanneer de grootte on het max-aantal pixels zit de volgende css word toegepast */
+
+@media only screen and (max-width: 1350px) {
+    .sidebar-right {
+        display: none;
+    }
+    .sidebar-left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-whatsapp {
+      margin-top: 0;
+    }
+}
+
